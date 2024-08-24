@@ -223,7 +223,7 @@ const AboutPage = () => {
 
             className="relative block aspect-[27/24] w-full"
           >
-            <Image src={"/images/about/Talha Naeem.jpg"} fill className="object-cover grayscale" alt="image" />
+            <Image src={"/images/about/talhanaeem.webp"} fill className="object-cover grayscale" alt="image" />
           </div>
           <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
             <h3>
