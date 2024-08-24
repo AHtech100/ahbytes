@@ -10,7 +10,6 @@ const checkIcon = (
 interface ListProps {
   text: string;
 }
-
 const AboutSectionOne = () => {
   const List: React.FC<ListProps> = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -32,7 +31,6 @@ const AboutSectionOne = () => {
                 paragraph="Our core mission is to empower businesses by delivering top-notch software solutions that safeguard their highly vulnerable applications. "
                 mb="44px"
               />
-
               <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
@@ -78,5 +76,4 @@ const AboutSectionOne = () => {
     </section>
   );
 };
-
 export default AboutSectionOne;
