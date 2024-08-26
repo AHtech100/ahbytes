@@ -17,12 +17,12 @@ const blogData: Blog[] = [
     publishDate: "2022",
   },
   {
-    id: 4,
+    id: 3,
     title: "3D-Megma",
     paragraph:
       "3D webiste for Create a digital twin of your existing building and release the potential of Web3.",
     image: "/images/blog/3rd-site.png",
-    url:"https://kambohdiv.github.io/3d-site/",
+    url:"/prject",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
@@ -32,7 +32,7 @@ const blogData: Blog[] = [
     publishDate: "2024",
   },
   {
-    id: 3,
+    id: 4,
     title: "SwiftMail",
     url:"https://swift-mail.vercel.app/",
     paragraph:
