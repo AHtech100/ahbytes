@@ -50,7 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <script src="https://chat.ordemio.com/lib/w.js" assistant-id="57c44558-7cd9-4a60-9a81-9616348687a5" async></script>
+     <script src="https://chat.ordemio.com/lib/w.js" assistant-id="93eb4b2d-b472-496f-8de3-05870122266b" async></script>
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <Header />
