@@ -100,7 +100,7 @@ const projectsData: Project[] = [
         comments: 5, 
         description:
             "SwiftMail is an innovative AI-powered tool designed to streamline the process of writing cold emails. Utilizing advanced AI technology, SwiftMail generates personalized email content that is professional, engaging, and tailored to your specific needs. Perfect for reaching out to potential clients, collaborators, or employers, SwiftMail simplifies email crafting, ensuring your communications are impactful and efficient.",
-        platformImage: "/images/projects/swift-mail.webp", 
+        platformImage: "/images/projects/Swift-mail.webp", 
         platformLink: "https://swift-mail.vercel.app",
         linkTitle: "Visit SwiftMail",
         subheading: "Revolutionize Your Email Outreach with AI",
