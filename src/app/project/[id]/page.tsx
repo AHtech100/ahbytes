@@ -149,7 +149,7 @@ const ProjectDetailsPage = () => {
                       <h4 className="mb-3 text-sm font-medium text-body-color">
                         Popular Tags :
                       </h4>
-                      <div className="flex items-center">
+                      <div className="flex items-center flex-wrap">
                         {project.tags.map((tag, index) => (
                           <TagButton key={index} text={tag} />
                         ))}
