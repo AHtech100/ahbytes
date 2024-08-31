@@ -78,3 +78,20 @@ a[target="_blank"][href="https://www.ordemio.com/"] > span {
 img[width="78"][height="20"] {
     display: contents !important;
   }
+/* styles/globals.css */
+.avatars-wrapper .header-ava {
+  background-image: url('https://www.ahbytes.com/images/meta-logo.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  height: 52px;
+  width: 52px;
+}
+
+.header-ava ,.chat-header {
+  display: none !important;
+}
+
+[aria-label="Powered by Tidio."]{ 
+  display: none !important;
+}

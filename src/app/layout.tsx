@@ -1,3 +1,4 @@
+// app/layout.tsx
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
@@ -6,21 +7,27 @@ import "react-modal-video/css/modal-video.css";
 import "./globals.css";
 import { Metadata } from "next";
 import { Providers } from "./providers";
-const inter = Inter({ subsets: ["latin"] });
+// import NorbyChatWidget from "./components/Chatbot/NorbyChatWidget";
+// import LandbotWidget from "./components/Chatbot/LandbotWidget"; // Import the new Landbot widget component
 
+const inter = Inter({ subsets: ["latin"] });
 
 // Replace with your image URL
 const imageUrl = "https://www.ahbytes.com/images/meta-logo.png";
 
 export const metadata: Metadata = {
-  title:{
-   default: " AH BYTES | Empowering Digital Innovation",
-   template: "%s | AH BYTES"},
-  description: "Tailored software solutions by AH BYTES. Let's build the future of technology together.",
-  keywords: "software development, digital innovation, custom applications, technology solutions",
+  title: {
+    default: "AH BYTES | Empowering Digital Innovation",
+    template: "%s | AH BYTES",
+  },
+  description:
+    "Tailored software solutions by AH BYTES. Let's build the future of technology together.",
+  keywords:
+    "software development, digital innovation, custom applications, technology solutions",
   openGraph: {
-    title: " AH BYTES | Empowering Digital Innovation ",
-    description: "Tailored software solutions by AH BYTES. Let's build the future of technology together.",
+    title: "AH BYTES | Empowering Digital Innovation",
+    description:
+      "Tailored software solutions by AH BYTES. Let's build the future of technology together.",
     url: "https://www.ahbytes.com",
     type: "website",
     images: [
@@ -28,20 +35,18 @@ export const metadata: Metadata = {
         url: imageUrl,
         width: 1200,
         height: 630,
-        alt: "AH BYTES - Empowering Digital Innovation"
-      }
-    ]
+        alt: "AH BYTES - Empowering Digital Innovation",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Empowering Digital Innovation | AH BYTES",
-    description: "Tailored software solutions by AHBYTES. Let's build the future of technology together.",
-    images: [imageUrl]
+    description:
+      "Tailored software solutions by AHBYTES. Let's build the future of technology together.",
+    images: [imageUrl],
   },
-
 };
-
-
 
 export default function RootLayout({
   children,
@@ -50,7 +55,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-<script src="https://chat.ordemio.com/lib/w.js" assistant-id="bd824f37-9ae8-4ca9-84da-4cd51a6c6ce8" async></script>
+      <script src="//code.tidio.co/pgo8mul2xnifqj9gvl19zayildtvc9oz.js" async></script>
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <Header />
