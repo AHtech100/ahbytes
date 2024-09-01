@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import SharePost from "../../components/Blog/SharePost";
 import TagButton from "../../components/Blog/TagButton";
-import { projectsData, defaultAuthor, Project } from "../../projects-data/data";
+import { projectsData, defaultAuthor, Project } from "../../data/projects-data";
 import Link from "next/link";
 
 // Removed generateMetadata from this file

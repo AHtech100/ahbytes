@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
       "Our MVP approach delivers a functional, streamlined product within just 30 days. By focusing on core features, we help you validate your concept, gather essential feedback, and quickly enter the market. This agile strategy minimizes risks and ensures your product meets user needs from the start.",
   },
   {
-    id: 1,
+    id: 11,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path

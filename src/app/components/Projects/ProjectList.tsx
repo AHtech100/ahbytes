@@ -1,6 +1,6 @@
 // components/ProjectList.tsx
 import Link from "next/link";
-import { projectsData } from "../../projects-data/data";
+import { projectsData } from "../../data/projects-data";
 
 const ProjectList = () => {
   return (

@@ -1,6 +1,6 @@
 // src/app/projects/[id]/generateMetadata.ts
 import { Metadata } from "next";
-import { projectsData } from "../../projects-data/data";
+import { projectsData } from "../../data/projects-data";
 
 // Function to generate metadata for the project page
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {

@@ -159,7 +159,7 @@ const AboutPage = () => {
               </div>
             </h3>
             <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-               Australian brand ambassador
+               Australian Brand Ambassador
             </p>
             <a
               href="https://au.linkedin.com/in/hashir-khalid-38b92a316"
@@ -197,7 +197,7 @@ const AboutPage = () => {
               </div>
             </h3>
             <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-               German brand ambassador
+               German Brand Ambassador
             </p>
             <a
               href="https://www.linkedin.com/in/wasiq-abbas-93224522a/"
@@ -235,7 +235,7 @@ const AboutPage = () => {
               </div>
             </h3>
             <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-               China brand ambassador
+                Chinese   Brand Ambassador
             </p>
             <a
               href="https://www.linkedin.com/"
