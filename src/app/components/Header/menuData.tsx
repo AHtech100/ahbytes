@@ -20,71 +20,77 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 4,
-    title: "Services",
-    path: "/services",
-    newTab: false,
-  },
-  {
     id: 5,
     title: "Support",
     path: "/contact",
     newTab: false,
   },
-  // {
-  //   id: 4,
-  //   title: "Pages",
-  //   newTab: false,
-  //   submenu: [
-  //     {
-  //       id: 41,
-  //       title: "About Page",
-  //       path: "/about",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 42,
-  //       title: "Contact Page",
-  //       path: "/contact",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 43,
-  //       title: "Blog Grid Page",
-  //       path: "/blog",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 44,
-  //       title: "Blog Sidebar Page",
-  //       path: "/blog-sidebar",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 45,
-  //       title: "Blog Details Page",
-  //       path: "/blog-details",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 46,
-  //       title: "Sign In Page",
-  //       path: "/signin",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 47,
-  //       title: "Sign Up Page",
-  //       path: "/signup",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 48,
-  //       title: "Error Page",
-  //       path: "/error",
-  //       newTab: false,
-  //     },
-  //   ],
-  // },
+  {
+    id: 4,
+    title: "Services",
+    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "MVP For Startups",
+        path: "/project/11",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Web/App Development",
+        path: "/project/12",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "Generative AI",
+        path: "/project/13",
+        newTab: false,
+      },
+      {
+        id: 44,
+        title: "Custom Development",
+        path: "/project/14",
+        newTab: false,
+      },
+      {
+        id: 45,
+        title: "Wix / Webflow",
+        path: "/project/15",
+        newTab: false,
+      },
+      {
+        id: 46,
+        title: "WordPress",
+        path: "/project/15",
+        newTab: false,
+      },
+      {
+        id: 47,
+        title: "Digital Transformation",
+        path: "/project/16",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "SEO",
+        path: "/project/17",
+        newTab: false,
+      },
+      {
+        id: 49,
+        title: "CRM Systems",
+        path: "/project/18",
+        newTab: false,
+      },
+      {
+        id: 49,
+        title: "Social Media Marketing",
+        path: "/project/19",
+        newTab: false,
+      },
+    ],
+  },
 ];
 export default menuData;
