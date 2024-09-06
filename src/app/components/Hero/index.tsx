@@ -1,16 +1,18 @@
 "use client"
 import Link from "next/link";
 import { TypeAnimation } from 'react-type-animation';
+import { AnimatedShinyTextDemo } from "./servicesbtn";
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="dark:bg-gray-950 relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-gray-950 relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px]  2xl:pb-[200px] "
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
+            <AnimatedShinyTextDemo/>
               <div
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"

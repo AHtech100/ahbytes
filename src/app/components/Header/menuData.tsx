@@ -90,6 +90,18 @@ const menuData: Menu[] = [
         path: "/project/19",
         newTab: false,
       },
+      {
+        id: 50,
+        title: " Shopify",
+        path: "/project/21",
+        newTab: false,
+      },
+      {
+        id: 50,
+        title: " E-commerce Solutions",
+        path: "/project/20",
+        newTab: false,
+      },
     ],
   },
 ];

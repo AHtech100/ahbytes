@@ -322,7 +322,52 @@ const projectsData: Project[] = [
         quote: "Elevate your brand with strategic social media marketing.",
         tags: ["Social Media", "Marketing", "Digital Marketing", "Branding"],
       },
-    
+      {
+        id: 20,
+        title: "E-commerce Solutions",
+        date: "",
+        views: 78,
+        comments: 15,
+        description:
+          "At AHBytes, we specialize in building powerful E-commerce solutions that drive sales and enhance customer experience. Our tailored platforms are designed to maximize engagement, optimize conversions, and grow your online business.",
+        platformImage: "/images/projects/ecommerce.png",
+        platformLink: "#",
+        linkTitle: "Grow Your Online Business with E-commerce Solutions",
+        subheading: "Unlock the Full Potential of Your E-commerce Store",
+        subdescription:
+          "Our comprehensive E-commerce solutions ensure seamless customer experience, from product browsing to checkout.",
+        features: [
+          "Custom E-commerce Platforms",
+          "Conversion Rate Optimization",
+          "Seamless Payment Integration",
+          "Inventory Management",
+        ],
+        quote: "Boost your online sales with a robust E-commerce solution.",
+        tags: ["E-commerce", "Online Store", "Sales", "Shopping Cart"],
+      },
+      {
+        id: 21,
+        title: "Shopify Store",
+        date: "",
+        views: 63,
+        comments: 9,
+        description:
+          "At AHBytes, we help brands connect with millions of listeners through targeted Shopify Advertising campaigns. Our data-driven strategies are designed to maximize brand awareness and engage the right audience.",
+        platformImage: "/images/projects/shopify_20stores.webp",
+        platformLink: "#",
+        linkTitle: "Reach New Audiences with Shopify Advertising",
+        subheading: "Leverage Shopify Powerful Advertising Platform",
+        subdescription:
+          "Engage listeners with tailored ads and grow your brand with Shopify vast audience.",
+        features: [
+          "Targeted Audio Ads",
+          "Brand Awareness",
+          "Podcast Sponsorships",
+          "Real-time Analytics",
+        ],
+        quote: "Reach millions of listeners with Shopify Advertising.",
+        tags: ["Shopify", "Audio Ads", "Music", "Brand Awareness"],
+      },
     
 ];
 
