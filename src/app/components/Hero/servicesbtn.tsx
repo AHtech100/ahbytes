@@ -46,8 +46,8 @@ export function AnimatedShinyTextDemo() {
           )}
         >
           <span className="dark:text-white text-lg">{project.text}</span>
-          <Link href={project.url} className="flex">
-            <button className="group flex rounded-full border w-36 border-black/5 bg-neutral-100 text-sm text-white px-4 py-1 transition-all ease-in hover:bg-[#2649d8] dark:border-white/5 dark:bg-[#4a6cf7] dark:hover:bg-[#2649d8]">
+          <Link href={project.url} className="flex justify-center items-center">
+            <button className="group flex rounded-full border w-36  text-sm text-white px-4 py-1 transition-all ease-in  border-white/5 bg-[#4a6cf7] hover:bg-[#2649d8]">
               Order Now
               <ArrowRightIcon className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
             </button>
