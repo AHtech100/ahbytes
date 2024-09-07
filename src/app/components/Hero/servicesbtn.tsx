@@ -19,6 +19,8 @@ const projects = [
   { text: "Social Media Marketing", url: "/project/21" },
   { text: "E-commerce Solutions", url: "/project/22" },
   { text: "Shopify", url: "/project/23" },
+  { text: "Wix / Webflow", url: "/project/18" },
+  { text: "UX/UI", url: "/project/13" },
 ];
 
 export function AnimatedShinyTextDemo() {
@@ -34,13 +36,13 @@ export function AnimatedShinyTextDemo() {
   }, []);
 
   return (
-    <div className="z-10 grid grid-cols-2 gap-2 items-center justify-center">
+    <div className="z-10 grid sm:grid-cols-3 gap-2 grid-cols-2 pb-8 items-center justify-center">
       {/* Dynamic Project List */}
       {projects.map((project, index) => (
         <div
           key={index}
           className={cn(
-            "flex items-center justify-between w-full p-4 my-2 border-b border-gray-300"
+            "flex items-center justify-between w-full p-4 my-2  border-gray-300"
           )}
         >
           <span className="dark:text-white text-lg">{project.text}</span>
