@@ -6,21 +6,18 @@ import Link from "next/link";
 
 // Array of project names and corresponding URLs
 const projects = [
-  { text: "WordPress Development", url: "/project/11" },
-  { text: "SEO", url: "/project/12" },
-  { text: "UX/UI", url: "/project/13" },
-  { text: "MVP For Startups", url: "/project/14" },
-  { text: "Web/App Development", url: "/project/15" },
-  { text: "Generative AI", url: "/project/16" },
-  { text: "Custom Development", url: "/project/17" },
-  { text: "Wix / Webflow", url: "/project/18" },
-  { text: "Digital Transformation", url: "/project/19" },
-  { text: "CRM Systems", url: "/project/20" },
-  { text: "Social Media Marketing", url: "/project/21" },
-  { text: "E-commerce Solutions", url: "/project/22" },
-  { text: "Shopify", url: "/project/23" },
-  { text: "Wix / Webflow", url: "/project/18" },
-  { text: "UX/UI", url: "/project/13" },
+  { text: "Shopify ", url: "/project/21" },
+  { text: "E-commerce Solutions", url: "/project/20" },
+  { text: "Web/App Development", url: "/project/12" },
+  { text: "Generative AI", url: "/project/13" },
+  { text: "Custom Development", url: "/project/14" },
+  { text: "Wix / Webflow", url: "/project/15" },
+  { text: "Digital Transformation", url: "/project/16" },
+  { text: "SEO", url: "/project/17" },
+  { text: "CRM Systems", url: "/project/18" },
+  { text: "Social Media Marketing", url: "/project/19" },
+  { text: "E-commerce Solutions", url: "/project/20" },
+  { text: "MVP For Startups", url: "/project/11" },
 ];
 
 export function AnimatedShinyTextDemo() {
@@ -36,7 +33,7 @@ export function AnimatedShinyTextDemo() {
   }, []);
 
   return (
-    <div className="z-10 grid sm:grid-cols-3 gap-2 grid-cols-2 pb-8 items-center justify-center">
+    <div className="z-10 grid sm:grid-cols-3 gap-2 grid-cols-1 pb-8 items-center justify-center">
       {/* Dynamic Project List */}
       {projects.map((project, index) => (
         <div
