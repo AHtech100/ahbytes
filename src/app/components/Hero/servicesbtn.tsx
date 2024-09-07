@@ -7,11 +7,11 @@ import Link from "next/link";
 // Array of project names and corresponding URLs
 const projects = [
   { text: "Shopify ", url: "/project/21" },
+  { text: "Wordpress", url: "/project/15" },
   { text: "E-commerce Solutions", url: "/project/20" },
   { text: "Web/App Development", url: "/project/12" },
   { text: "Generative AI", url: "/project/13" },
   { text: "Custom Development", url: "/project/14" },
-  { text: "Wix / Webflow", url: "/project/15" },
   { text: "Digital Transformation", url: "/project/16" },
   { text: "SEO", url: "/project/17" },
   { text: "CRM Systems", url: "/project/18" },
