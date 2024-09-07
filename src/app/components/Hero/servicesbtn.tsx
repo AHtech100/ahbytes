@@ -34,18 +34,18 @@ export function AnimatedShinyTextDemo() {
   }, []);
 
   return (
-    <div className="z-10 flex flex-col items-center justify-center">
+    <div className="z-10 grid grid-cols-2 gap-2 items-center justify-center">
       {/* Dynamic Project List */}
       {projects.map((project, index) => (
         <div
           key={index}
           className={cn(
-            "flex items-center justify-between w-full max-w-lg p-4 my-2 border-b border-gray-300"
+            "flex items-center justify-between w-full p-4 my-2 border-b border-gray-300"
           )}
         >
           <span className="dark:text-white text-lg">{project.text}</span>
-          <Link href={project.url}>
-            <button className="group rounded-full border border-black/5 bg-neutral-100 text-sm text-white px-4 py-1 transition-all ease-in hover:bg-[#2649d8] dark:border-white/5 dark:bg-[#4a6cf7] dark:hover:bg-[#2649d8]">
+          <Link href={project.url} className="flex">
+            <button className="group flex rounded-full border w-36 border-black/5 bg-neutral-100 text-sm text-white px-4 py-1 transition-all ease-in hover:bg-[#2649d8] dark:border-white/5 dark:bg-[#4a6cf7] dark:hover:bg-[#2649d8]">
               Order Now
               <ArrowRightIcon className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
             </button>
