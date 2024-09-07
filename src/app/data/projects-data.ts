@@ -368,6 +368,160 @@ const projectsData: Project[] = [
         quote: "Reach millions of listeners with Shopify Advertising.",
         tags: ["Shopify", "Audio Ads", "Music", "Brand Awareness"],
       },
+      {
+        id: 22,
+        title: "Graphic Design",
+        date: "",
+        views: 128,
+        comments: 15,
+        description:
+          "At AHBytes, we specialize in creating visually captivating graphic designs that align with your brand's identity. Whether it's logos, brochures, or digital ads, our creative team delivers high-quality designs that leave a lasting impression.",
+        platformImage: "/images/projects/what-is-graphic-design-header.jpg", // Make sure to replace with the actual image path
+        platformLink: "#",
+        linkTitle: "Elevate Your Brand with Stunning Graphic Design",
+        subheading: "Creative Solutions for Your Visual Needs",
+        subdescription:
+          "From logos to marketing materials, we design compelling visuals that resonate with your audience.",
+        features: [
+          "Logo Design",
+          "Brochure Design",
+          "Digital and Print Ads",
+          "Branding and Visual Identity",
+        ],
+        quote: "Your brand deserves to be seen in the best light. Let us help you shine with our graphic design expertise.",
+        tags: ["Graphic Design", "Branding", "Marketing", "Creative"],
+      },
+      {
+        id: 23,
+        title: "UX/UI Design with Figma",
+        date: "",
+        views: 89,
+        comments: 12,
+        description:
+          "At AHBytes, we design user experiences that are intuitive, engaging, and impactful. Leveraging Figma, our team collaborates efficiently to create user interfaces that are not only visually appealing but also highly functional. Our UX/UI design services ensure your digital products are easy to navigate, aesthetically pleasing, and optimized for performance.",
+        platformImage: "/images/projects/5757453-scaled-1.jpg", // Replace with the actual image path
+        platformLink: "#",
+        linkTitle: "Transform Your Digital Experience with UX/UI Design and Figma",
+        subheading: "Collaborate in Real-Time with Figma to Create Seamless Designs",
+        subdescription:
+          "From wireframes to high-fidelity prototypes, we use Figma to streamline the design process, ensuring that every element is pixel-perfect and aligned with your vision.",
+        features: [
+          "User Research and Personas",
+          "Wireframing and Prototyping in Figma",
+          "Visual Design",
+          "Interactive Prototypes",
+          "Real-time Collaboration",
+          "Usability Testing",
+        ],
+        quote: "Using Figma, we bring your design ideas to life with precision and collaboration, ensuring the best user experience possible.",
+        tags: ["UX Design", "UI Design", "Figma", "Prototyping", "User Experience", "Real-time Collaboration"],
+      }
+      ,
+      {
+        id: 24,
+        title: "SaaS Development",
+        date: "",
+        views: 102,
+        comments: 14,
+        description:
+          "At AHBytes, we specialize in building scalable and secure Software as a Service (SaaS) platforms tailored to your business needs. Our team develops end-to-end SaaS solutions that streamline processes, improve user experience, and provide easy access to your services from anywhere. Whether you’re looking to build a SaaS from scratch or enhance your existing platform, we have the expertise to make it happen.",
+        platformImage: "/images/projects/63f7294d7b58a42ac6e28be5_Top SaaS Product Ideas for Your Startup.png", // Replace with actual image path
+        platformLink: "#",
+        linkTitle: "Streamline Operations with Custom SaaS Solutions",
+        subheading: "Build Scalable and Secure SaaS Platforms",
+        subdescription:
+          "Our SaaS solutions are built with scalability, security, and performance in mind, ensuring that your software can grow with your business.",
+        features: [
+          "Cloud-based Infrastructure",
+          "Scalable Architecture",
+          "Data Security and Compliance",
+          "Customizable User Interfaces",
+          "Automated Updates and Maintenance",
+          "Third-party Integrations",
+        ],
+        quote: "Build and scale your SaaS platform with solutions designed for growth and flexibility.",
+        tags: ["SaaS", "Cloud", "Scalability", "Security", "Third-party Integrations"],
+      }
+      ,
+      {
+        id: 25,
+        title: "Business Registration Services",
+        date: "",
+        views: 89,
+        comments: 6,
+        description:
+          "At AHBytes, we streamline the process of business registration, helping entrepreneurs and businesses get started quickly and compliantly. From registering your business as an LLC, Corporation, Partnership, or Sole Proprietorship, we handle all the legal paperwork, ensuring your business is set up correctly and in compliance with regulations.",
+        platformImage: "/images/projects/businessregisteration2.jpg",
+        platformLink: "#",
+        linkTitle: "Register Your Business with Confidence",
+        subheading: "Fast & Easy Business Registration",
+        subdescription:
+          "We provide comprehensive support in registering your business entity, whether it's an LLC, Corporation, or any other business structure.",
+        features: [
+          "LLC Registration",
+          "Corporation Registration",
+          "Sole Proprietorship Setup",
+          "Partnership Formation",
+          "Compliance and Legal Support",
+          "State and Federal Filings",
+        ],
+        quote: "Start your business the right way with AHBytes Business Registration services.",
+        tags: ["Business Registration", "LLC", "Corporation", "Legal Support"],
+      }
+      
+      ,
+      {
+        id: 26,
+        title: "WooCommerce Development",
+        date: "",
+        views: 72,
+        comments: 12,
+        description:
+          "AHBytes specializes in WooCommerce development, helping businesses create powerful, scalable online stores on WordPress. Whether you're looking to set up a new store, customize your existing one, or integrate advanced functionalities, we provide end-to-end WooCommerce solutions.",
+        platformImage: "/images/projects/what-is-woocommerce.jpg",
+        platformLink: "#",
+        linkTitle: "Boost Your Online Sales with WooCommerce",
+        subheading: "Custom WooCommerce Solutions for Every Business",
+        subdescription:
+          "From store setup to custom plugins, we deliver tailored WooCommerce solutions that drive sales and enhance user experience.",
+        features: [
+          "Custom WooCommerce Development",
+          "Theme Customization",
+          "Plugin Development & Integration",
+          "Payment Gateway Integration",
+          "Store Optimization & Scaling",
+          "Real-time Analytics & Reporting",
+        ],
+        quote: "Build your online store with WooCommerce and unlock your business potential.",
+        tags: ["WooCommerce", "E-commerce", "WordPress", "Custom Development"],
+      }
+      
+      ,
+      {
+        id: 27,
+        title: "B2B Services",
+        date: "",
+        views: 85,
+        comments: 14,
+        description:
+          "At AHBytes, we empower businesses with robust B2B services designed to enhance operational efficiency, drive partnerships, and streamline processes. Our B2B solutions are tailored to help businesses of all sizes engage with other enterprises and scale effectively.",
+        platformImage: "/images/projects/B2B_CS_Trends_Blog_He.2e16d0ba.fill-1200x625.format-jpeg_25BXi80.jpg",
+        platformLink: "#",
+        linkTitle: "Unlock New Opportunities with B2B Services",
+        subheading: "Tailored B2B Solutions for Growth and Collaboration",
+        subdescription:
+          "From lead generation to enterprise collaboration, we offer comprehensive B2B services that help you scale and build partnerships.",
+        features: [
+          "Lead Generation & Qualification",
+          "Enterprise Collaboration Tools",
+          "Custom CRM & ERP Solutions",
+          "Sales Automation & Support",
+          "B2B Marketing & Outreach",
+        ],
+        quote: "Boost your B2B relationships and operations with AHBytes' B2B services.",
+        tags: ["B2B", "CRM", "ERP", "Sales", "Enterprise Solutions"],
+      }
+      
     
 ];
 

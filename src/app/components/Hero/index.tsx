@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import { TypeAnimation } from 'react-type-animation';
-import { AnimatedShinyTextDemo } from "./servicesbtn";
+import { ProjectListDemo } from "./servicesbtn";
 const Hero = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-            <AnimatedShinyTextDemo/>
+            <ProjectListDemo/>
               <div
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
