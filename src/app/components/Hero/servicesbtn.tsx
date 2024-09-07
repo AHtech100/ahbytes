@@ -6,17 +6,17 @@ import Link from "next/link";
 
 // Array of project names and corresponding URLs
 const projects = [
-  { text: "Shopify ", url: "/project/21" },
   { text: "Wordpress", url: "/project/15" },
-  { text: "E-commerce Solutions", url: "/project/20" },
   { text: "Web/App Development", url: "/project/12" },
+  { text: "Webflow", url: "/project/15" },
+  { text: "Shopify ", url: "/project/21" },
   { text: "Generative AI", url: "/project/13" },
   { text: "Custom Development", url: "/project/14" },
+  { text: "E-commerce Solutions", url: "/project/20" },
   { text: "Digital Transformation", url: "/project/16" },
   { text: "SEO", url: "/project/17" },
+  { text: "Wix ", url: "/project/15" },
   { text: "CRM Systems", url: "/project/18" },
-  { text: "Social Media Marketing", url: "/project/19" },
-  { text: "E-commerce Solutions", url: "/project/20" },
   { text: "MVP For Startups", url: "/project/11" },
 ];
 
