@@ -33,7 +33,7 @@ export function AnimatedShinyTextDemo() {
   }, []);
 
   return (
-    <div className="z-10 flex min-h-[5rem] items-center justify-center">
+    <div className="z-10 flex min-h-[5rem] items-center justify-center ">
       <div
         className={cn(
           "group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in hover:cursor-pointer group  hover:bg-[#2649d8]  dark:border-white/5 dark:bg-[#4a6cf7] dark:hover:bg-[#2649d8] "

@@ -36,5 +36,4 @@ const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({
     </p>
   );
 };
-
 export default AnimatedShinyText;
