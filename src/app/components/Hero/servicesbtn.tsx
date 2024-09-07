@@ -1,23 +1,24 @@
-"use client"
+"use client";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import AnimatedShinyText from "@/components/magicui/animated-shiny-text";
-import Link from "next/link"; // Assuming you're using Next.js for routing
+import Link from "next/link";
 
 // Array of project names and corresponding URLs
 const projects = [
-  { text: " ✨ MVP For Startups", url: "/project/11" },
-  { text: " ✨ Web/App Development", url: "/project/12" },
-  { text: " ✨ Generative AI", url: "/project/13" },
-  { text: " ✨ Custom Development", url: "/project/14" },
-  { text: " ✨ Wix / Webflow", url: "/project/15" },
-  { text: " ✨ Digital Transformation", url: "/project/16" },
-  { text: " ✨ SEO", url: "/project/17" },
-  { text: " ✨ CRM Systems", url: "/project/18" },
-  { text: " ✨ Social Media Marketing", url: "/project/19" },
-  { text: " ✨ E-commerce Solutions", url: "/project/20" },
-  { text: " ✨ Shopify ", url: "/project/21" },
+  { text: "WordPress Development", url: "/project/11" },
+  { text: "SEO", url: "/project/12" },
+  { text: "UX/UI", url: "/project/13" },
+  { text: "MVP For Startups", url: "/project/14" },
+  { text: "Web/App Development", url: "/project/15" },
+  { text: "Generative AI", url: "/project/16" },
+  { text: "Custom Development", url: "/project/17" },
+  { text: "Wix / Webflow", url: "/project/18" },
+  { text: "Digital Transformation", url: "/project/19" },
+  { text: "CRM Systems", url: "/project/20" },
+  { text: "Social Media Marketing", url: "/project/21" },
+  { text: "E-commerce Solutions", url: "/project/22" },
+  { text: "Shopify", url: "/project/23" },
 ];
 
 export function AnimatedShinyTextDemo() {
@@ -33,19 +34,26 @@ export function AnimatedShinyTextDemo() {
   }, []);
 
   return (
-    <div className="z-10 flex min-h-[5rem] items-center justify-center ">
-      <div
-        className={cn(
-          "group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in hover:cursor-pointer group  hover:bg-[#2649d8]  dark:border-white/5 dark:bg-[#4a6cf7] dark:hover:bg-[#2649d8] "
-        )}
-      >
-        <Link href={projects[currentIndex].url}>
-            <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-white">
-              <span className="dark:text-white group-hover:text-white  ">{projects[currentIndex].text}</span>
-              <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-            </AnimatedShinyText>
-        </Link>
-      </div>
+    <div className="z-10 flex flex-col items-center justify-center">
+      {/* Dynamic Project List */}
+      {projects.map((project, index) => (
+        <div
+          key={index}
+          className={cn(
+            "flex items-center justify-between w-full max-w-lg p-4 my-2 border-b border-gray-300"
+          )}
+        >
+          <span className="dark:text-white text-lg">{project.text}</span>
+          <Link href={project.url}>
+            <button className="group rounded-full border border-black/5 bg-neutral-100 text-sm text-white px-4 py-1 transition-all ease-in hover:bg-[#2649d8] dark:border-white/5 dark:bg-[#4a6cf7] dark:hover:bg-[#2649d8]">
+              Order Now
+              <ArrowRightIcon className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+            </button>
+          </Link>
+        </div>
+      ))}
+
+  
     </div>
   );
 }
