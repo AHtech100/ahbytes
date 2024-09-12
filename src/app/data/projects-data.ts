@@ -125,7 +125,7 @@ const projectsData: Project[] = [
           "Our MVP approach delivers a functional, streamlined product within just 30 days. By focusing on core features, we help you validate your concept, gather essential feedback, and quickly enter the market. This agile strategy minimizes risks and ensures your product meets user needs from the start.",
         platformImage: "/images/projects/MVP-Development-for-Startups.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Fast-Track Your Startup with Our MVP Services",
         subdescription:
           "Delivering a minimum viable product within 30 days to quickly validate your concept and minimize risks.",
@@ -148,7 +148,7 @@ const projectsData: Project[] = [
           "We offer Web Development Services to businesses of all sizes to give them a boost. Web development involves a range of tasks, including designing the user interface, developing the back-end functionality, and ensuring that the website or web app is responsive and user-friendly.",
         platformImage: "/images/projects/Types-of-Web-Development-for-your-Project.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Transform Your Digital Presence with Expert Development",
         subdescription:
           "Comprehensive web and app development services tailored to meet your business needs.",
@@ -171,7 +171,7 @@ const projectsData: Project[] = [
           "AH Bytes's Generative AI services help businesses unlock new levels of creativity and efficiency by automating content creation, optimizing workflows, and providing unique data-driven insights.",
         platformImage: "/images/projects/generative-ai.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Harness the Power of AI for Creative and Efficient Solutions",
         subdescription:
           "Leverage Generative AI to enhance your business operations with automated content creation and optimized workflows.",
@@ -194,7 +194,7 @@ const projectsData: Project[] = [
           "Custom software development is the process of creating tailored software applications or solutions designed to meet specific business needs, requirements, and objectives.",
         platformImage: "/images/projects/custom-development.png",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Tailored Software Solutions for Your Business",
         subdescription:
           "Developing custom software applications to meet your specific business objectives and needs.",
@@ -217,7 +217,7 @@ const projectsData: Project[] = [
           "Building websites with varying levels of control and customization. WordPress offers extensive plugins and themes, Wix provides easy drag-and-drop creation, and Webflow caters to designers needing advanced design and CMS features.",
         platformImage: "/images/projects/wordpress-vs-wix-ft-img-3-min.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Flexible Website Solutions with WordPress, Wix, and Webflow",
         subdescription:
           "Choose the right platform for your website with our WordPress, Wix, and Webflow solutions.",
@@ -240,7 +240,7 @@ const projectsData: Project[] = [
           "Unleashing the full potential of your business through expert guidance and strategic implementation of cutting-edge technologies.",
         platformImage: "/images/projects/digital-transformationn.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Empower Your Business with Digital Transformation",
         subdescription:
           "Transform your business processes and strategies with our expert digital solutions.",
@@ -263,7 +263,7 @@ const projectsData: Project[] = [
           "Our team conducts thorough keyword research, optimizes your website's content, and enhances technical aspects to ensure higher search engine rankings. We focus on driving organic traffic, improving your brand visibility, and delivering measurable results for your business.",
         platformImage: "/images/projects/seo.png",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Optimize Your Online Presence with Expert SEO Services",
         subdescription:
           "Drive organic traffic and improve visibility with our comprehensive SEO strategies.",
@@ -286,7 +286,7 @@ const projectsData: Project[] = [
           "Our expert team designs and develops CRM solutions that streamline customer management, automate sales processes, and enhance team collaboration. We create CRM solutions that empower your business to improve customer relationships, boost efficiency, and drive growth.",
         platformImage: "/images/projects/what-is-crm-system-anodius.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Enhance Customer Relationships with CRM Solutions",
         subdescription:
           "Improve customer management and sales processes with our custom CRM systems.",
@@ -309,7 +309,7 @@ const projectsData: Project[] = [
           "At AHBytes, we elevate your brand with comprehensive Social Media Marketing services, including targeted Google Ads and other high-impact advertising solutions. Our strategic campaigns are designed to enhance your online visibility, engage your audience, and drive conversions.",
         platformImage: "/images/projects/social-media-marketing.webp",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Maximize Your Reach with Strategic Social Media Marketing",
         subdescription:
           "Engage your audience and drive conversions with our targeted social media strategies.",
@@ -332,7 +332,7 @@ const projectsData: Project[] = [
           "At AHBytes, we specialize in building powerful E-commerce solutions that drive sales and enhance customer experience. Our tailored platforms are designed to maximize engagement, optimize conversions, and grow your online business.",
         platformImage: "/images/projects/ecommerce.png",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Unlock the Full Potential of Your E-commerce Store",
         subdescription:
           "Our comprehensive E-commerce solutions ensure seamless customer experience, from product browsing to checkout.",
@@ -355,7 +355,7 @@ const projectsData: Project[] = [
           "At AHBytes, we help brands connect with millions of listeners through targeted Shopify Advertising campaigns. Our data-driven strategies are designed to maximize brand awareness and engage the right audience.",
         platformImage: "/images/projects/shopify_20stores.webp",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Leverage Shopify Powerful Advertising Platform",
         subdescription:
           "Engage listeners with tailored ads and grow your brand with Shopify vast audience.",
@@ -378,7 +378,7 @@ const projectsData: Project[] = [
           "At AHBytes, we specialize in creating visually captivating graphic designs that align with your brand's identity. Whether it's logos, brochures, or digital ads, our creative team delivers high-quality designs that leave a lasting impression.",
         platformImage: "/images/projects/what-is-graphic-design-header.jpg", // Make sure to replace with the actual image path
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Creative Solutions for Your Visual Needs",
         subdescription:
           "From logos to marketing materials, we design compelling visuals that resonate with your audience.",
@@ -401,7 +401,7 @@ const projectsData: Project[] = [
           "At AHBytes, we design user experiences that are intuitive, engaging, and impactful. Leveraging Figma, our team collaborates efficiently to create user interfaces that are not only visually appealing but also highly functional. Our UX/UI design services ensure your digital products are easy to navigate, aesthetically pleasing, and optimized for performance.",
         platformImage: "/images/projects/5757453-scaled-1.jpg", // Replace with the actual image path
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Collaborate in Real-Time with Figma to Create Seamless Designs",
         subdescription:
           "From wireframes to high-fidelity prototypes, we use Figma to streamline the design process, ensuring that every element is pixel-perfect and aligned with your vision.",
@@ -427,7 +427,7 @@ const projectsData: Project[] = [
           "At AHBytes, we specialize in building scalable and secure Software as a Service (SaaS) platforms tailored to your business needs. Our team develops end-to-end SaaS solutions that streamline processes, improve user experience, and provide easy access to your services from anywhere. Whether you’re looking to build a SaaS from scratch or enhance your existing platform, we have the expertise to make it happen.",
         platformImage: "/images/projects/63f7294d7b58a42ac6e28be5_Top SaaS Product Ideas for Your Startup.png", // Replace with actual image path
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Build Scalable and Secure SaaS Platforms",
         subdescription:
           "Our SaaS solutions are built with scalability, security, and performance in mind, ensuring that your software can grow with your business.",
@@ -480,7 +480,7 @@ const projectsData: Project[] = [
           "AHBytes specializes in WooCommerce development, helping businesses create powerful, scalable online stores on WordPress. Whether you're looking to set up a new store, customize your existing one, or integrate advanced functionalities, we provide end-to-end WooCommerce solutions.",
         platformImage: "/images/projects/what-is-woocommerce.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Custom WooCommerce Solutions for Every Business",
         subdescription:
           "From store setup to custom plugins, we deliver tailored WooCommerce solutions that drive sales and enhance user experience.",
@@ -507,7 +507,7 @@ const projectsData: Project[] = [
           "At AHBytes, we empower businesses with robust B2B services designed to enhance operational efficiency, drive partnerships, and streamline processes. Our B2B solutions are tailored to help businesses of all sizes engage with other enterprises and scale effectively.",
         platformImage: "/images/projects/B2B_CS_Trends_Blog_He.2e16d0ba.fill-1200x625.format-jpeg_25BXi80.jpg",
         platformLink: "https://ahbytes.com/order",
-        linkTitle: "Order Now",
+        linkTitle: "CLICK HERE TO ORDER NOW",
         subheading: "Tailored B2B Solutions for Growth and Collaboration",
         subdescription:
           "From lead generation to enterprise collaboration, we offer comprehensive B2B services that help you scale and build partnerships.",
